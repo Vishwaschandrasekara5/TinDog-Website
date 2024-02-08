@@ -1,0 +1,155 @@
+body{
+    font-family: Montserrat;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 500px;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#features h3{
+    font-weight: bolder;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3%;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.51em;
+    font-weight: bold;
+}
+
+#navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.download-button{
+   margin: 5% 3% 5% 0; 
+}
+
+.title-image{
+    width: 50%;
+    height: 95%;
+    transform: rotate(25deg);
+}
+
+/* feature section */
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonial{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.full-wi-btn{
+    width: 100%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#footer{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 3%;
+    
+}
+
+#footer h1{
+    font-weight: bolder;
+    font-size: 100px;
+    color: #fff;
+}
+
+#icon{
+    text-align: center;
+    padding: 7% 3%;
+}
+
+.fa-brands{
+    padding: 20px;
+}
+
+.fa-envelope{
+    padding: 20px;
+}
